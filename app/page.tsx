@@ -122,7 +122,7 @@ export default function Home() {
                         delay: 0.7 + index * 0.05,
                         ease: [0.215, 0.61, 0.355, 1], // Custom easing for a bouncy effect
                       }}
-                      className="text-5xl md:text-7xl font-bold text-rose-800 font-serif inline-block"
+                      className="text-4xl md:text-6xl font-bold text-rose-800 font-serif inline-block"
                     >
                       {char === " " ? "\u00A0" : char}
                     </motion.span>
